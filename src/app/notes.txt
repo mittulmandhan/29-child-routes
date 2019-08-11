@@ -1,0 +1,9 @@
+In angular, some routes may only be view within some particular routes in such scenarios we create child routes.
+
+In our case, we department-detail component and in this component we want to display overview and contact information of the selected department.
+Overview and contact information are the features of each department.
+so they should be viewable only after navigating to some department component.
+We will implement the same in this code.
+
+we can add default child route and even add wildcard child route to manage invalid urls.
+Try it out:)
